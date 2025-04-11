@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, 
+}
+.heder{
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 5px 15px;
+}
+@media(max-width:600px){
+   .rs{
+    display:none ;
+}
+   
+ .menu{
+    display: none;
+ }  
+
+}
+.name{
+    width: 200px;
+    height: 30px;
+    background-color: #353535;
+    color:#ffff;
+    display: flex;
+    align-self: start;
+    margin-top: 30px;
+    
+}
+.type{
+    margin-top: 9px;
+
+}
